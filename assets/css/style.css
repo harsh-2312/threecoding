@@ -16517,6 +16517,22 @@ span.select2-selection.select2-selection--single:focus {
   .img-box3 {
     display: block;
     margin-top: 40px;
+    width: 100%;
+  }
+
+  .counter-box-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .counter-box {
+    margin-bottom: 20px;
   }
 }
 
@@ -26291,7 +26307,7 @@ span.select2-selection.select2-selection--single:focus {
 
 @media (max-width: 767px) {
   .project-area .project-image {
-    height: 400px;
+    height: 600px;
   }
 }
 
